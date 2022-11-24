@@ -1,0 +1,90 @@
+a)
+Starting Axiom: F
+Production Rule: F->F[+F]F[-F]F
+number of iteration: 5
+Segment Length: 4
+Initial Angle: 90
+Drawing Angle: 25.7
+
+
+b)
+Starting Axiom: F
+Production Rule: F->F[+F]F[-F][F]
+number of iteration: 5
+Segment Length: 6
+Initial Angle: 90
+Drawing Angle: 20
+
+
+c)
+Starting Axiom: F
+Production Rule: F->FF-[-F+F+F]+[+F-F-F]
+number of iteration: 4
+Segment Length: 5
+Initial Angle: 90
+Drawing Angle: 22.5
+
+
+d)
+Starting Axiom: X
+Production Rule: X->F[+X]F[-X]+X
+Production Rule(0 if no rule): F->FF
+number of iteration: 7
+Segment Length: 3
+Initial Angle: 90
+Drawing Angle: 20
+
+e)
+Starting Axiom: X
+Production Rule: X->F[+X][-X]FX
+Production Rule(0 if no rule): F->FF
+number of iteration: 7
+Segment Length: 4
+Initial Angle: 90
+Drawing Angle: 25.7
+
+f)
+Starting Axiom: X
+Production Rule: X->F-[[X]+X]+F[+FX]-X
+Production Rule(0 if no rule): F->FF
+number of iteration: 5
+Segment Length: 4
+Initial Angle: 90
+Drawing Angle: 22.5
+
+
+g)
+Starting Axiom: Y
+Production Rule: X->X[-FFF][+FFF]FX
+Production Rule(0 if no rule): Y->YFX[+Y][-Y]
+number of iteration: 5
+Segment Length: 4
+Initial Angle: 90
+Drawing Angle: 25.7
+
+
+g)
+Starting Axiom: FX
+Production Rule: X->X[-FFF][+FFF]FX
+Production Rule(0 if no rule): Y->YFX[+Y][-Y]
+number of iteration: 5
+Segment Length: 4
+Initial Angle: 90
+Drawing Angle: 25.7
+
+
+h)
+Starting Axiom: F
+Production Rule: F->F[+FF][-FF]F[-F][+F]F
+Production Rule(0 if no rule): 0
+number of iteration: 3
+Segment Length: 5
+Initial Angle: 90
+Drawing Angle: 35
+
+
+
+
+
+
+
